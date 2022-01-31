@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+.banner{
+    width: 100%;
+    object-fit: contain;
+    margin-top: 7vh;
+    min-height:300px;
+    padding-bottom: 30px;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0,1);
+    color:white;
+    display: flex;
+}
+
+.size{
+    min-height:200px;
+
+}
+
+.prof_details{
+	font-family: 'Open Sans Condensed', sans-serif;
+    margin:20px auto auto 30px;
+
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width:40%;
+ 
+}
+
+.a{
+    margin: 0px;
+}
+
+.prof_title{
+    font-size: 42px;
+}
+.prof_name{
+    font-size: 32px;
+}
+
+.college{
+    font-size: 37px;
+}
+.subjects_det{
+    width:30%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+
+}
+.subject{
+    border:1px solid rgba(255,255,255,0.2);
+    margin-bottom: 1px;
+    margin-top: 3px;
+    padding-left:10px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+
+.link{
+    width: 30%;
+    padding-left: 70px;
+    flex-direction: column;
+    margin-top: 3px;
+   
+    padding-right: 20px;
+}
+
+
+.add_new{
+    background-color:rgba(255,255,255,0.2);
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+    font-weight: 400;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+    border-radius: 2px;
+    height: 30px;
+    width: 150px;
+    padding: 5px 15px 5px 15px;
+    object-fit: contain;
+	text-decoration: none;
+	outline: none;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.add_new:hover{
+    background-color: white;
+    color: black;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .prof_details{
+        width:100%;
+        box-sizing: border-box;
+        margin:20px 0px auto 0px;
+        padding-left: 30px;
+        object-fit: contain;
+     
+    }
+    .subjects_det{
+        width:100%;
+
+       
+        
+    
+    }
+    .subject{
+       
+        margin-top: 9px;
+        width: 60%;
+        margin-left: 5%;
+    }
+
+    
+.link{
+    margin-top: 3px;
+   
+    padding-right: 0px;
+
+    width: 100%;
+    flex-direction: column;
+   
+    display: flex;
+    box-sizing: border-box;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+   
+.add_new{
+  
+	display: inline-block;
+
+    width: 150px;
+    padding: 5px 15px 5px 15px;
+    object-fit: contain;
+	
+    margin-right: 30px;
+}
+
+  }
+
+
+  @media only screen and (max-width: 400px) {
+
+    
+
+.prof_details{
+	font-family: 'Open Sans Condensed', sans-serif;
+    margin:20px auto auto 0px;
+
+    font-size: 25px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width:100%;
+ 
+}
+
+.a{
+    margin: 0px;
+    margin-left: -18px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding-left: 3px;
+}
+
+.prof_title{
+    font-size: 30px;
+    border:1px solid rgba(255,255,255,0.1);
+    
+}
+.prof_name{
+    font-size: 23px;
+}
+
+.college{
+    font-size: 23px;
+}
+
+
+.link{
+    margin-top: 3px;
+   
+    padding-right: 0px;
+
+    width: 100%;
+    flex-direction: column;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+   
+.add_new{
+  
+	display: inline-block;
+
+    width: 130px;
+    padding: 4px 12px 4px 12px;
+    object-fit: contain;
+	text-align: start;
+    margin-right: 10px;
+}
+
+  }

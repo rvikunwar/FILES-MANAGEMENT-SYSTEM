@@ -1,0 +1,23 @@
+.sub_cont{
+    display: flex;
+    width: 100%;
+    min-height: 250px;
+    margin-top: 3vh;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+
+
+@media only screen and (max-width:700px){
+    .sub_cont{
+        display: flex;
+        width: 100%;
+        min-height: 300px;
+        margin-top: 2vh;
+        padding-bottom: 50px;
+        object-fit: contain;
+        box-sizing: border-box;
+    }
+    
+}

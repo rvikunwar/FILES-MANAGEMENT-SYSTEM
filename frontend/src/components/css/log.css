@@ -1,0 +1,88 @@
+
+.first_page{
+ 
+
+  min-height:570px;
+  width:80%;
+  margin-top: 12vh;
+  margin-left: 10%;
+  position: relative;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  box-sizing: border-box;
+  padding-top: 1px;
+}
+
+.or{
+  display: flex;
+  color: rgba(0,0,0,0.3);
+  font-size: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.or_1{
+  margin-top: -2px;
+}
+.line{
+
+  width: 48%;
+  height: 1px;
+  border:none;
+  border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width:600px){
+  .first_page{
+
+
+    min-height:500px;
+    width:80%;
+    margin-top: 13vh;
+    margin-left: 10%;
+    position: relative;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    padding-top: 1px;
+    box-sizing: border-box;
+  }
+}
+
+
+
+@media only screen and (max-width:450px){
+
+  .first_page{
+ 
+    
+  min-height:500px;
+ width:100%;
+  margin-top:0vh;
+  margin-left: 0%;
+  padding-bottom: 10px;
+  position: relative;
+  background-color:none;
+  box-shadow: none;
+  padding-top: none;
+    background-image: url("https://www.desktopbackground.org/download/1680x1050/2015/06/03/958154_digital-art-black-green-abstract-hd-wallpapers-desktop_3840x2160_h.jpg");
+background-position:center;
+background-size: cover;
+  }
+
+  .line{
+
+    width: 48%;
+    height: 1px;
+    border:none;
+    border-top: 0.002px solid rgba(255,255,255,0.3);
+  }
+  .or_1{
+ 
+    margin-top: -2px;
+    color: rgba(255,255,255,0.2);
+
+  }
+  
+  
+
+}

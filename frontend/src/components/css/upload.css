@@ -1,0 +1,10 @@
+
+.uploaded_content{
+    display: flex;
+    width: 100%;
+
+    margin-top: 8vh;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    object-fit: contain;
+}

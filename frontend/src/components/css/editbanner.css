@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+.banner_1{
+    width: 100%;
+    object-fit: contain;
+    box-sizing: border-box;
+    min-height:300px;
+    margin-top: 7vh;
+    background-color: rgba(0, 0, 0,1);
+    color:white;
+    
+    display: flex;
+}
+.batchdata{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.s_1{
+ 
+    margin-top: 3px;
+    box-sizing: border-box;
+    padding-left:10px;
+    object-fit: contain;
+    letter-spacing: 1px;
+    font-size: 19px;
+    width: 50%;
+    margin-left: 4px;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    height: 30px;
+    margin-bottom: 4px;
+    border: 1px solid rgba(255,255,255,0.2);
+    outline: none;
+}
+.prof_details_1{
+    
+	font-family: 'Open Sans Condensed', sans-serif;
+    margin:20px auto auto 30px;
+
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width:40%;
+ 
+}
+.po{
+margin-bottom: 10px;
+
+
+}
+
+.a_1{
+    margin: 0px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width:85%;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    height: 30px;
+    margin-bottom: 4px;
+    border: 1px solid rgba(255,255,255,0.2);
+    outline: none;
+}
+
+.prof_title_1{
+    font-size: 30px;
+    height: 50px;
+    width:100%;
+}
+
+.subjects_det_1{
+    width:30%;
+    border: 1px solid rgba(255,255,255,0.2);
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    overflow-y:scroll;
+    height: 230px;
+    
+    margin-left: 20px;
+
+}
+
+.subjects_det_1::-webkit-scrollbar{
+    display: none;
+}
+.subject_1{
+    margin-top: 3px;
+    padding-left:10px;
+    object-fit: contain;
+    letter-spacing: 1px;
+    font-size: 19px;
+    width:95%;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    height: 30px;
+    margin-bottom: 4px;
+    border: 1px solid rgba(255,255,255,0.2);
+    outline: none;
+}
+
+
+.link_1{
+    width: 30%;
+    padding-left: 70px;
+    flex-direction: column;
+    margin-top: 3px;
+
+    padding-right: 20px;
+}
+
+
+.add_new_1{
+    background-color:rgba(255,255,255,0.2);
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+    font-weight: 400;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+    border-radius: 2px;
+    height: 30px;
+    width: 150px;
+    padding: 5px 15px 5px 15px;
+    object-fit: contain;
+	text-decoration: none;
+	outline: none;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+
+.add_new_2{
+    background-color:rgba(255,255,255,0.2);
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+    font-weight: 400;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+    border-radius: 2px;
+    height: 30px;
+    padding: 5px 15px 5px 15px;
+    object-fit: contain;
+	text-decoration: none;
+    margin-bottom: 5px;
+    margin-left: 5px;
+	outline: none;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+@media only screen and (max-width:800px) {
+    .banner_1{
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+  
+.a_1{
+    margin: 0px;
+    
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width:300px;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    height: 25px;
+    margin-bottom: 4px;
+    border: 1px solid white;
+    outline: none;
+}
+
+.prof_title_1{
+    font-size: 25px;
+    height: 40px;
+    width: 350px;
+}
+
+
+    .subjects_det_1{
+        width:85%;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 19px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        overflow-y:scroll;
+        margin-left: 28px;
+        height: 130px;
+    
+    }
+
+    .subject_1{
+        margin-top: 3px;
+        padding-left:10px;
+        object-fit: contain;
+        letter-spacing: 1px;
+        font-size: 19px;
+        width:250px;
+        background-color: black;
+        color: white;
+        font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 5px;
+        height: 25px;
+        margin-bottom: 4px;
+        border: 1px solid white;
+        outline: none;
+    }
+    .s_1{
+        margin-top: 3px;
+        box-sizing: border-box;
+        padding-left:10px;
+        object-fit: contain;
+        letter-spacing: 1px;
+        font-size: 19px;
+        width:100px;
+        margin-left: 4px;
+        background-color: black;
+        color: white;
+        font-family: 'Open Sans Condensed', sans-serif;
+    
+        height: 30px;
+        margin-bottom: 4px;
+        border: 1px solid white;
+        outline: none;
+     
+    }
+    .add_new_1{
+        background-color:rgba(255,255,255,0.2);
+        border: none;
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        font-weight: 400;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 16px;
+        border-radius: 2px;
+        height: 30px;
+        width: 150px;
+        padding: 5px 15px 5px 15px;
+        object-fit: contain;
+        text-decoration: none;
+        outline: none;
+        letter-spacing: 1px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: -40px;
+      
+    }
+    
+}
+
+
+
+@media only screen and (max-width:450px){
+    .banner_1{
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+  
+.a_1{
+    margin: 0px;
+    
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width:150px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    height: 25px;
+    margin-bottom: 4px;
+    border: 1px solid white;
+    outline: none;
+}
+
+.prof_title_1{
+    font-size: 20px;
+    height: 40px;
+    width: 250px;
+
+}
+.college_1{
+    font-size: 18px;
+}
+
+    .subjects_det_1{
+        width:90%;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 19px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        overflow-y:scroll;
+        margin-left: 28px;
+        height: 130px;
+    
+    }
+
+    .subject_1{
+        margin-top: 3px;
+        padding-left:10px;
+        object-fit: contain;
+        letter-spacing: 1px;
+        font-size: 19px;
+        width:200px;
+        background-color: black;
+        color: white;
+        font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 5px;
+        height: 25px;
+        margin-bottom: 4px;
+        border: 1px solid white;
+        outline: none;
+    }
+    .s_1{
+        margin-top: 3px;
+        box-sizing: border-box;
+        padding-left:10px;
+        object-fit: contain;
+        letter-spacing: 1px;
+        font-size: 19px;
+        width:90px;
+        margin-left: 4px;
+        background-color: black;
+        color: white;
+        font-family: 'Open Sans Condensed', sans-serif;
+    
+        height: 30px;
+        margin-bottom: 4px;
+        border: 1px solid white;
+        outline: none;
+        
+     
+    }
+
+    .prof_name_1{
+        font-size: 18px;
+    }
+    .add_new_1{
+        background-color:rgba(255,255,255,0.2);
+        border: none;
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        font-weight: 400;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 16px;
+        border-radius: 2px;
+        height: 30px;
+        width: 150px;
+        padding: 5px 15px 5px 15px;
+        object-fit: contain;
+        text-decoration: none;
+        outline: none;
+        letter-spacing: 1px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: -40px;
+      
+    }
+    
+    .subjects_det_1{
+        width:85%;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 19px;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        overflow-y:scroll;
+
+        margin-left: 28px;
+        height: 130px;
+    
+    }
+
+    .po{
+        margin-bottom: 10px;
+      
+        
+        }
+    
+
+}
